@@ -4,3 +4,5 @@
 
 - 섹션 3: C# - The Calculator App
 - 섹션 4: Improving the UI with Resources and Styles
+
+- .NET v4.6.1
