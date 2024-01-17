@@ -7,11 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="525" Width="350">
 
-    <Window.Resources>
-        <SolidColorBrush x:Key="numbersColor" Color="#666666"/>
-        <SolidColorBrush x:Key="operatorsColor" Color="Green"/>
-    </Window.Resources>
-    
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -50,7 +45,7 @@
         <Button x:Name="divisionButton"
                 Click="OperationButton_Click"
                 Background="{StaticResource operatorsColor}"
-                Foreground="White"
+                Foreground="{StaticResource foregroundColor}"
                 Content="/"
                 Margin="5"
                 Grid.Row="1"
